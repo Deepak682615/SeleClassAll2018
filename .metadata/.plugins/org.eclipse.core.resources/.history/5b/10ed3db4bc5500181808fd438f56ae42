@@ -1,0 +1,28 @@
+package com.deepak;
+
+import java.util.ArrayList;
+
+public class CollectionPractice {
+
+	public static void main(String[] args) {
+		
+	ArrayList<String> al = new ArrayList<>();
+	al.add("Deepak");
+	al.add("Infosys");
+	System.out.println(al);
+	
+
+	ArrayList<String> al2 = new ArrayList<>();
+	al2.add("Ram");
+	al2.add("Deepak");
+	al.removeAll(al2);
+	
+	for (String x : al) {
+		System.out.println(x);
+		
+	}
+	
+	
+	}
+
+}

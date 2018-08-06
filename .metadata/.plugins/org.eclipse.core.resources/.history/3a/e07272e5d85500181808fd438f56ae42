@@ -1,0 +1,30 @@
+package com.deepak;
+
+import java.util.HashSet;
+
+public class SetPractice {
+
+	public static void main(String[] args) {
+		//HashSet
+		
+		HashSet<Integer> h = new HashSet<>();
+		
+		h.add(12);
+		h.add(14);
+		h.add(16);
+		h.remove(14);
+		
+HashSet<Integer> h2 = new HashSet<>();
+		
+		h2.add(2);
+		h2.add(4);
+		h2.add(6);
+	
+		System.out.println(h);
+		
+		h.addAll(h2);
+		System.out.println(h);
+
+	}
+
+}

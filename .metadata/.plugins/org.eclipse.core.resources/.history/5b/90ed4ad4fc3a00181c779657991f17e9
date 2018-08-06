@@ -1,0 +1,9 @@
+
+public class ChildClass extends ParentClass{
+	int x=10;
+	
+	public void method() {
+		System.out.println("Child");
+	}
+
+}

@@ -1,0 +1,14 @@
+
+public class ChildClass extends ParentClass implements InterfaceA{
+	int x=10;
+	int z=22;
+	
+	public void method() {
+		System.out.println("Child");
+	}
+	
+	public void method1() {
+		System.out.println("Child");
+	}
+
+}

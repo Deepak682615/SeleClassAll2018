@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="96016" started-at="2018-06-01T09:54:05Z" finished-at="2018-06-01T09:55:41Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="38195" started-at="2018-06-01T09:54:05Z" finished-at="2018-06-01T09:54:43Z">
+      <class name="org.Maven.com.MavenProject.NewTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:org.Maven.com.MavenProject.NewTest@7fac631b]" name="beforeTest" is-config="true" duration-ms="35484" started-at="2018-06-01T09:54:05Z" finished-at="2018-06-01T09:54:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:org.Maven.com.MavenProject.NewTest@7fac631b]" name="f" duration-ms="2622" started-at="2018-06-01T09:54:41Z" finished-at="2018-06-01T09:54:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:org.Maven.com.MavenProject.NewTest@7fac631b]" name="afterTest" is-config="true" duration-ms="2" started-at="2018-06-01T09:54:43Z" finished-at="2018-06-01T09:54:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- org.Maven.com.MavenProject.NewTest -->
+    </test> <!-- Test -->
+    <test name="Test2" duration-ms="96016" started-at="2018-06-01T09:54:05Z" finished-at="2018-06-01T09:55:41Z">
+      <class name="org.Maven.com.MavenProject.NewTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:org.Maven.com.MavenProject.NewTest@1efed156]" name="beforeTest" is-config="true" duration-ms="93669" started-at="2018-06-01T09:54:05Z" finished-at="2018-06-01T09:55:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:org.Maven.com.MavenProject.NewTest@1efed156]" name="f" duration-ms="2344" started-at="2018-06-01T09:55:39Z" finished-at="2018-06-01T09:55:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:org.Maven.com.MavenProject.NewTest@1efed156]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-06-01T09:55:41Z" finished-at="2018-06-01T09:55:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- org.Maven.com.MavenProject.NewTest -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

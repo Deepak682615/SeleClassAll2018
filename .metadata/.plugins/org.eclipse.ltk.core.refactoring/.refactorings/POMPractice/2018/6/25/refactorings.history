@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;POMPractice/src/test/java/FindByPractice&apos;&#x0D;&#x0A;- Original project: &apos;POMPractice&apos;&#x0D;&#x0A;- Destination element: &apos;POMPractice/src/test/java/FindByPractice&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     LoginPage.java&#x0D;&#x0A;     POMmain.java" description="Copy compilation units" destination="/src\/test\/java&lt;FindByPractice" element1="/src\/test\/java&lt;{LoginPage.java" element2="/src\/test\/java&lt;{POMmain.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1529730245085" units="2" version="1.0"/>
+</session>

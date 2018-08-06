@@ -1,0 +1,11 @@
+
+public class ParentClass {
+	
+	int x=50;
+	int y=40;
+	public void method() {
+		System.out.println("Parent");
+	}
+
+
+}

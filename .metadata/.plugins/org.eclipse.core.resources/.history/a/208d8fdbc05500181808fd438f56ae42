@@ -1,0 +1,22 @@
+package com.deepak;
+
+import java.util.LinkedList;
+
+public class LinkedListPractice {
+
+	public static void main(String[] args) {
+		
+		
+		LinkedList<Integer> a= new LinkedList<>();
+		a.add(10);
+		a.add(11);
+		a.add(12);
+		a.add(13);
+		
+		
+		a.set(1, 9);
+		System.out.println(a);
+
+	}
+
+}

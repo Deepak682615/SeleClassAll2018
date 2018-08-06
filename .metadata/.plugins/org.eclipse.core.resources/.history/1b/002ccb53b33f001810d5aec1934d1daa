@@ -1,0 +1,26 @@
+
+public class ParentClass implements InterfaceB {
+	
+	int x=50;
+	int y=40;
+	public void method() {
+		System.out.println("Parent");
+	}
+
+	public void method2() {
+		System.out.println("Parent");
+		
+		
+		
+	}
+	
+	private void method(int a) {
+		
+	}
+
+	@Override
+	public void eat() {
+		System.out.println("eat Parent");
+		
+	}
+}

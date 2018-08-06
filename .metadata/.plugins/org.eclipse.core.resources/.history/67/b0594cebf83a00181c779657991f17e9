@@ -1,0 +1,13 @@
+
+public class Javaoops {
+
+	//Overloading:
+	
+	public void method() {
+		System.out.println("1");
+	}
+	public void method(int a) {
+		System.out.println("2 "+a);
+	}
+
+}

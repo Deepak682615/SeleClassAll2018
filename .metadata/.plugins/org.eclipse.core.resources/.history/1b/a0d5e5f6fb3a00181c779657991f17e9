@@ -1,0 +1,17 @@
+
+public class Javaoops {
+
+	//Overloading:
+	
+	public static void main(String[] args) {
+	
+		ChildClass ref =new ChildClass();
+				ref.method();
+		
+		ParentClass ref2= new ParentClass();
+		ref2.method();
+		
+		
+
+}
+}

@@ -1,0 +1,30 @@
+
+public class ChildClass extends ParentClass {
+	int x=20;
+
+	
+	
+	public ChildClass() {
+	
+			System.out.println("Child COnstructor");
+	}
+	
+	public ChildClass(int y) {
+		
+		System.out.println("Child COnstructor"+y);
+	}
+	public static void  method4() {
+		 static  int y=12;
+		System.out.println(x);
+		 	
+		/*System.out.println("Child Method1");		super.method2();
+		System.out.println(super.a);*/
+		
+	}
+	
+	
+	
+	
+	
+
+}

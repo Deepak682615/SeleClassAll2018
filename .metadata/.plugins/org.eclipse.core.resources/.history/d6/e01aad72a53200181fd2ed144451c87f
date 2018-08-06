@@ -1,0 +1,25 @@
+package TestNG;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterTest;
+
+public class SelePractice {
+  @Test
+  public void f() {
+	  
+	  
+	  
+	  
+  }
+  @BeforeTest
+  public void beforeTest() {
+	  System.setProperty("webdriver.chrome.driver", "Resource/chromedriver.exe");
+	  
+  }
+
+  @AfterTest
+  public void afterTest() {
+  }
+
+}

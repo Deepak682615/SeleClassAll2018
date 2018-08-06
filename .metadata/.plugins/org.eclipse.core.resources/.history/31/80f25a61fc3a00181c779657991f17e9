@@ -1,0 +1,20 @@
+
+public class Javaoops {
+
+	//Overloading:
+	
+	public static void main(String[] args) {
+	
+		ChildClass ref =new ChildClass();
+		ref.method();
+		
+		ParentClass ref2= new ParentClass();
+		ref2.method();
+		
+		ParentClass ref3 = new ChildClass();
+		ref3.method();
+		System.out.println(ref3.x);
+		
+
+}
+}

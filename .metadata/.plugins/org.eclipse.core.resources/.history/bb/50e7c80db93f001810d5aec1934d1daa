@@ -1,0 +1,46 @@
+
+public class Javaoops  extends AbstractClass
+{
+
+	//Overloading:
+	
+	public static void main(String[] args) {
+	
+	    ChildClass ref =new ChildClass();
+		ref.method1();  
+		ref.method2();
+		ref.method3();
+		System.out.println(ref.y);
+		
+		
+		System.out.println("------------------");
+		ParentClass ref2= new ParentClass();
+		ref2.method1();
+		ref2.method2();
+		
+		System.out.println("------------------");
+		ParentClass ref3 = new ChildClass();
+		ref3.method1();
+	
+		
+	/*	ref3.eat();
+	    System.out.println(ref3.y);
+	    
+	    InterfaceB ref4 = new ParentClass();
+	    ref4.eat();
+	    
+	    InterfaceA ref5 = new ChildClass();
+	    */
+	
+	}
+
+	@Override
+	public void eat() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	
+	
+}

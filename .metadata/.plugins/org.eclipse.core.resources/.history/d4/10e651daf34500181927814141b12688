@@ -1,0 +1,28 @@
+
+public class Javaoops  
+{
+
+	//Overloading:
+	
+	public static void main(String[] args) {
+	
+	  /*  ChildClass ref =new ChildClass();
+	    
+	    ref.method1();*/
+	 /*   
+	  try {
+		  System.out.println(10/0);
+	  }
+	  catch (Exception e) {
+		System.out.println("I am in Catch");
+		System.out.println(10/0);
+	}*/
+	  finally {
+		  System.out.println("finally");
+		  
+	  }
+	   
+	
+	
+}
+}
